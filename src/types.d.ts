@@ -46,7 +46,7 @@ export interface Board {
     snakes: Battlesnake[];
 
     // Used in non-standard game modes
-    harzards: Coord[];
+    hazards: Coord[];
 }
 
 export interface GameState {
