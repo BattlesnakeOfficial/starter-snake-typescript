@@ -7,7 +7,7 @@ This is a basic implementation of the [Battlesnake API](https://docs.battlesnake
 ## Technologies Used
 
 * [TypeScript](https://www.typescriptlang.org/)
-* [Node.jsFlask](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 
 
@@ -42,7 +42,8 @@ Whenever you update these values, go to the page for your Battlesnake and select
 
 On every turn of each game your Battlesnake receives information about the game board and must decide its next move.
 
-Locate the `move` function inside [logic.ts](logic.ts#L23). Possible moves are "up", "down", "left", or "right". To start your Battlesnake will choose a move randomly. Your goal as a developer is to read information sent to you about the board (available in the `gameState` variable) and decide where your Battlesnake should move next.  
+Locate the `move` function inside [logic.ts](logic.ts#L23). Possible moves are "up", "down", "left", or "right". To start your Battlesnake will choose a move randomly. Your goal as a developer is to read information sent to you about the board (available in the `gameState` variable) and decide where your Battlesnake should move next.
+
 See the [Battlesnake Game Rules](https://docs.battlesnake.com/references/rules) for more information on playing the game, moving around the board, and improving your algorithm.
 
 ## (Optional) Running Your Battlesnake Locally
@@ -60,7 +61,8 @@ npm start
 
 This Starter Project comes with a very simple test suite for you to expand! Located in `test/logic.spec.ts` you can run them using the following command:
 ```shell
-npm test```
+npm test
+```
 
 ---
 
