@@ -54,7 +54,8 @@ describe('Battlesnake Moves', () => {
         for (let i = 0; i < 1000; i++) {
             const moveResponse: MoveResponse = move(gameState)
             // In this state, we should NEVER move left.
-            assert.notStrictEqual(moveResponse.move, 'left')
+            const allowedMoves = ["up", "down", "right"]
+            assert.notStrictEqual(allowedMoves.indexOf(moveResponse.move), -1)
         }
     })
 })
