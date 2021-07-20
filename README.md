@@ -45,11 +45,22 @@ On every turn of each game your Battlesnake receives information about the game 
 Locate the `move` function inside [logic.ts](logic.ts#L23). Possible moves are "up", "down", "left", or "right". To start your Battlesnake will choose a move randomly. Your goal as a developer is to read information sent to you about the board (available in the `gameState` variable) and decide where your Battlesnake should move next.  
 See the [Battlesnake Game Rules](https://docs.battlesnake.com/references/rules) for more information on playing the game, moving around the board, and improving your algorithm.
 
+## (Optional) Running Your Battlesnake Locally
+
+Eventually you might want to run your Battlesnake server locally for faster testing and debugging. You can do this by installing [Node.js](https://nodejs.org/en/download/) and running:
+
+```shell
+npm install
+npm start
+```
+
+**Note:** You cannot create games on [play.battlesnake.com](https://play.battlesnake.com) using a locally running Battlesnake unless you install and use a port forwarding tool like [ngrok](https://ngrok.com/). See [Hosting Suggestions.](https://docs.battlesnake.com/references/hosting-suggestions#local)
+
 ## Running Tests
 
 This Starter Project comes with a very simple test suite for you to expand! Located in `test/logic.spec.ts` you can run them using the following command:
 ```shell
-npm install npm test```
+npm test```
 
 ---
 
