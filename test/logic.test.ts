@@ -1,7 +1,4 @@
-import 'mocha';
-import assert from 'assert'
-
-import { info, move } from '../src/logic';
+import { info, move } from '../src/logic'
 import { Battlesnake, Coord, GameState, MoveResponse } from '../src/types';
 
 function createGameState(me: Battlesnake): GameState {
@@ -40,7 +37,7 @@ function createBattlesnake(id: string, body: Coord[]): Battlesnake {
 describe('Battlesnake API Version', () => {
     it('should be api version 1', () => {
         const result = info()
-        assert.strictEqual(result.apiversion, "1")
+        expect(result.apiversion).toBe("1")
     })
 })
 
@@ -55,7 +52,7 @@ describe('Battlesnake Moves', () => {
             const moveResponse: MoveResponse = move(gameState)
             // In this state, we should NEVER move left.
             const allowedMoves = ["up", "down", "right"]
-            assert.notStrictEqual(allowedMoves.indexOf(moveResponse.move), -1)
+            expect(allowedMoves).toContain(moveResponse.move)
         }
     })
 })
