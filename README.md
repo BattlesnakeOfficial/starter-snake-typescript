@@ -2,7 +2,7 @@
 
 ![Battlesnake Logo](https://media.battlesnake.com/social/GitHubSocial.png)
 
-This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api). It's a great starting point for anyone wanting to program their first Battlesnake using TypeScript. It comes ready to use with [Repl.it](https://repl.it) and [Heroku](https://heroku.com), or you can use any other cloud provider you'd like. 
+This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api). It's a great starting point for anyone wanting to program their first Battlesnake using TypeScript. It comes ready to use with [Repl.it](https://repl.it) and [Heroku](https://heroku.com), or you can use any other cloud provider you'd like.
 
 ## Technologies Used
 
@@ -59,7 +59,7 @@ npm start
 
 ## Running Tests
 
-This Starter Project comes with a very simple test suite for you to expand! Located in `test/logic.spec.ts` you can run them using the following command:
+This Starter Project comes with a very simple test suite for you to expand! Located in `test/logic.test.ts` you can run them using the following command:
 ```shell
 npm test
 ```
@@ -98,4 +98,3 @@ Want to contribute to Battlesnake? We have a number of open-source codebases and
 ## Feedback
 
 **Do you have an issue or suggestions for this repository?** Head over to our [Feedback Repository](https://play.battlesnake.com/feedback?utm_source=github&utm_medium=readme&utm_campaign=typescript_starter&utm_content=feedback) today and let us know!
-
