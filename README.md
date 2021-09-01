@@ -2,7 +2,8 @@
 
 ![Battlesnake Logo](https://media.battlesnake.com/social/GitHubSocial.png)
 
-This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api). It's a great starting point for anyone wanting to program their first Battlesnake using TypeScript. It comes ready to use with [Repl.it](https://repl.it) and [Heroku](https://heroku.com), or you can use any other cloud provider you'd like.
+This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api) in TypeScript. It's a great starting point for anyone wanting to program their first Battlesnake using TypeScript, and comes ready to deploy with [Replit](https://repl.it) and [Heroku](https://heroku.com), or you can use any other cloud provider you'd like. 
+
 
 ## Technologies Used
 
