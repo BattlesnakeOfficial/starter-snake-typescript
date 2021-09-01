@@ -1,4 +1,4 @@
-# A Simple [Battlesnake](http://play.battlesnake.com?utm_source=github&utm_medium=readme&utm_campaign=typescript_starter&utm_content=homepage) Written in TypeScript
+# Getting started with [Battlesnake](http://play.battlesnake.com?utm_source=github&utm_medium=readme&utm_campaign=typescript_starter&utm_content=homepage) and TypeScript
 
 ![Battlesnake Logo](https://media.battlesnake.com/social/GitHubSocial.png)
 
