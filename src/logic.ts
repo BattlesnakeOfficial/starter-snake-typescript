@@ -21,7 +21,7 @@ export function end(gameState: GameState): void {
 }
 
 export function move(gameState: GameState): MoveResponse {
-    let possibleMoves = {
+    let possibleMoves: { [key: string]: boolean } = {
         up: true,
         down: true,
         left: true,
@@ -58,7 +58,7 @@ export function move(gameState: GameState): MoveResponse {
 
     // Finally, choose a move from the available safe moves.
     // TODO: Step 5 - Select a move to make based on strategy, rather than random.
-    const safeMoves = Object.keys(possibleMoves).filter(key => possibleMoves[key as keyof typeof possibleMoves])
+    const safeMoves = Object.keys(possibleMoves).filter(key => possibleMoves[key])
     const response: MoveResponse = {
         move: safeMoves[Math.floor(Math.random() * safeMoves.length)],
     }
