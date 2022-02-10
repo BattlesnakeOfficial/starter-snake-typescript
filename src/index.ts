@@ -4,6 +4,10 @@ import { info, start, move, end } from "./logic";
 
 const app = express()
 app.use(express.json())
+app.use(function (req, res, next) {
+    res.set("Server", "BattlesnakeOfficial/starter-snake-typescript")
+    next()
+})
 
 const port = process.env.PORT || 8080
 
