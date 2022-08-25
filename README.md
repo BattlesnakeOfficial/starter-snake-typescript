@@ -1,6 +1,6 @@
 # Battlesnake TypeScript Starter Project
 
-### An official Battlesnake template written in TypeScript. Get started at [play.battlesnake.com](https://play.battlesnake.com).
+An official Battlesnake template written in TypeScript. Get started at [play.battlesnake.com](https://play.battlesnake.com).
 
 ![Battlesnake Logo](https://media.battlesnake.com/social/StarterSnakeGitHubRepos_TypeScript.png)
 
