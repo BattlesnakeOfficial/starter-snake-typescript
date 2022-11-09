@@ -75,4 +75,3 @@ export interface MoveResponse {
   move: string;
   shout?: string;
 }
-  
